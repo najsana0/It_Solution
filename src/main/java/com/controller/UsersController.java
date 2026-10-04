@@ -18,7 +18,7 @@ import com.service.UsersService;
 
 @RestController
 @RequestMapping("/userRegistration")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://it-solution-frontend.vercel.app")
 public class UsersController {
 	@Autowired
 	UsersService service;
